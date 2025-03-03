@@ -1,5 +1,5 @@
 import React from 'react';
-import profileImage from '../images/profile.jpg';  // Import the image
+import profileImage from '../images/profile.jpg';  // Import at the top
 
 function Home() {
   return (
@@ -7,7 +7,7 @@ function Home() {
       <section className="hero">
         <div className="profile-container">
           <img 
-            src={profileImage}
+            src={profileImage}  // Use the imported image
             alt="Arshia Garg" 
             className="profile-image"
           />
