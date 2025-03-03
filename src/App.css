@@ -22,7 +22,7 @@ body {
 
 header {
   background-color: var(--sage-green);
-  padding: 1rem;
+  padding: 1rem 1rem 0;
   color: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -33,40 +33,51 @@ header h1 {
   text-align: center;
 }
 
+.main-nav {
+  margin-top: 1rem;
+}
+
 .main-nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 0.5rem;
 }
 
 .main-nav li {
-  margin: 0 1rem;
+  margin: 0;
 }
 
 .main-nav a {
   color: white;
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 0.8rem 2rem;
+  background-color: var(--dark-sage);
+  border-radius: 8px 8px 0 0;
   transition: all 0.3s ease;
+  font-weight: 500;
+  display: block;
+  position: relative;
+  bottom: -1px;
 }
 
+.main-nav a.active,
 .main-nav a:hover {
-  background-color: var(--light-sage);
+  background-color: var(--cream);
   color: var(--dark-sage);
-  border-radius: 25px;
+  padding-bottom: calc(0.8rem + 1px);
 }
 
 .content {
   flex: 1;
   padding: 2rem;
   max-width: 1200px;
-  margin: 2rem auto;
+  margin: 0 auto;
   background-color: white;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
-  border-radius: 8px;
 }
 
 footer {
@@ -109,5 +120,17 @@ footer {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 768px) {
+  .main-nav ul {
+    flex-wrap: wrap;
+    gap: 0.25rem;
+  }
+
+  .main-nav a {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
   }
 }
