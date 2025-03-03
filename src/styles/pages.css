@@ -148,4 +148,36 @@ section {
   .cover-letter {
     padding: 1.5rem;
   }
+}
+
+/* Resume PDF Styles */
+.pdf-container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pdf-container object {
+  border: 1px solid var(--light-sage);
+  border-radius: 4px;
+}
+
+.pdf-container p {
+  text-align: center;
+  padding: 20px;
+}
+
+.pdf-container a {
+  color: var(--sage-green);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.pdf-container a:hover {
+  color: var(--dark-sage);
+  text-decoration: underline;
 } 
