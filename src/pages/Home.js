@@ -1,20 +1,16 @@
 import React from 'react';
 
 function Home() {
-  // Log the complete image URL for debugging
-  const imageUrl = `${process.env.PUBLIC_URL}/assets/profile.jpg`;
-  console.log('Image URL:', imageUrl);
-
   return (
     <div className="home">
       <section className="hero">
         <div className="profile-container">
           <img 
-            src={imageUrl}
+            src={`${window.location.origin}/assets/profile.jpg`}
             alt="Arshia Garg" 
             className="profile-image"
             onError={(e) => {
-              console.error('Image failed to load. Attempted URL:', imageUrl);
+              console.error('Image failed to load:', window.location.origin + '/assets/profile.jpg');
             }}
           />
           <div className="intro-text">
@@ -25,7 +21,7 @@ function Home() {
             expertise in Python, Java, and JavaScript. I'm passionate about 
             using data and AI to improve lives. I also love anything with 
             adrenaline and excitement, like mountain biking, snowboarding, and 
-            surfing. My goal in life is to visit every national park. I’m also 
+            surfing. My goal in life is to visit every national park. I'm also 
             a thriller and sci-fi movie enthusiast and would love any recs. 
             </p>
           </div>
