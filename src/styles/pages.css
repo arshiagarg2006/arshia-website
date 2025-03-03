@@ -277,4 +277,14 @@ section {
     width: 200px;
     height: 200px;
   }
-} 
+}
+
+/* Cover Letter Page Styles */
+.cover-letter-container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* The pdf-container styles from the Resume page will also apply here */ 
