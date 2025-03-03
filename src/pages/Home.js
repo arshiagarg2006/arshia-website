@@ -1,17 +1,20 @@
 import React from 'react';
 
 function Home() {
+  // Log the complete image URL for debugging
+  const imageUrl = `${process.env.PUBLIC_URL}/assets/profile.jpg`;
+  console.log('Image URL:', imageUrl);
+
   return (
     <div className="home">
       <section className="hero">
         <div className="profile-container">
           <img 
-            src={process.env.PUBLIC_URL + '/assets/profile.jpg'} 
+            src={imageUrl}
             alt="Arshia Garg" 
             className="profile-image"
             onError={(e) => {
-              console.error('Image failed to load:', e);
-              alert('Image failed to load. Check console for details.');
+              console.error('Image failed to load. Attempted URL:', imageUrl);
             }}
           />
           <div className="intro-text">
