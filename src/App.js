@@ -49,7 +49,7 @@ function App() {
     <Router>
       <div className="App">
         <header>
-          <h1>Your Name</h1>
+          <h1>Arshia Garg</h1>
           <NavLinks />
         </header>
 
