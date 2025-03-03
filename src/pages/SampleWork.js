@@ -17,8 +17,8 @@ function SampleWork() {
             and your role in its development.
           </p>
           <div className="project-links">
-            <a href="#" className="demo-link">Live Demo</a>
-            <a href="#" className="code-link">View Code</a>
+            <a href="https://project1-demo.com" className="demo-link">Live Demo</a>
+            <a href="https://github.com/yourusername/project1" className="code-link">View Code</a>
           </div>
         </div>
 
@@ -32,8 +32,8 @@ function SampleWork() {
             skills and technologies.
           </p>
           <div className="project-links">
-            <a href="#" className="demo-link">Live Demo</a>
-            <a href="#" className="code-link">View Code</a>
+            <a href="https://project2-demo.com" className="demo-link">Live Demo</a>
+            <a href="https://github.com/yourusername/project2" className="code-link">View Code</a>
           </div>
         </div>
 
@@ -47,8 +47,8 @@ function SampleWork() {
             and technical expertise.
           </p>
           <div className="project-links">
-            <a href="#" className="demo-link">Live Demo</a>
-            <a href="#" className="code-link">View Code</a>
+            <a href="https://project3-demo.com" className="demo-link">Live Demo</a>
+            <a href="https://github.com/yourusername/project3" className="code-link">View Code</a>
           </div>
         </div>
       </div>
