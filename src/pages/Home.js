@@ -6,7 +6,7 @@ function Home() {
       <section className="hero">
         <div className="profile-container">
           <img 
-            src="/assets/profile-image.jpg" 
+            src="public/assets/IMG_0634.HEIC" 
             alt="Arshia Garg" 
             className="profile-image"
           />
