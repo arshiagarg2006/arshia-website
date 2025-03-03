@@ -1,4 +1,5 @@
 import React from 'react';
+import profileImage from '../images/profile.jpg';  // Import the image
 
 function Home() {
   return (
@@ -6,12 +7,9 @@ function Home() {
       <section className="hero">
         <div className="profile-container">
           <img 
-            src={`${window.location.origin}/assets/profile.jpg`}
+            src={profileImage}
             alt="Arshia Garg" 
             className="profile-image"
-            onError={(e) => {
-              console.error('Image failed to load:', window.location.origin + '/assets/profile.jpg');
-            }}
           />
           <div className="intro-text">
             <h2>Welcome to My Portfolio</h2>
