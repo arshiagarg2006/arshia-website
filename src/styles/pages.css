@@ -153,7 +153,7 @@ section {
 /* Resume Page Styles */
 .resume-container {
   width: 100%;
-  max-width: 1800px;  /* Increased max-width */
+  max-width: 1600px;  /* Increased max-width */
   margin: 0 auto;
   padding: 0;
 }
@@ -172,7 +172,7 @@ section {
 .pdf-container object {
   width: 100%;
   border: none;
-  min-width: 1600px;  /* Minimum width for better readability */
+  min-width: 1000px;  /* Minimum width for better readability */
 }
 
 .pdf-container p {
