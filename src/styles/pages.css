@@ -150,20 +150,26 @@ section {
   }
 }
 
-/* Resume PDF Styles */
+/* Resume Page Styles */
+.resume-container {
+  width: 100%;
+  max-width: 1400px;  /* Increased from default */
+  margin: 0 auto;
+  padding: 0;
+}
+
 .pdf-container {
   width: 100%;
-  max-width: 1000px;
   margin: 0 auto;
-  padding: 20px;
   background: white;
   border-radius: 8px;
+  overflow: hidden;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .pdf-container object {
-  border: 1px solid var(--light-sage);
-  border-radius: 4px;
+  width: 100%;
+  border: none;
 }
 
 .pdf-container p {
