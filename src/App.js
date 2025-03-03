@@ -6,6 +6,7 @@ import CoverLetter from "./pages/CoverLetter";
 import ElevatorPitch from "./pages/ElevatorPitch";
 import SampleWork from "./pages/SampleWork";
 import "./App.css";
+import "./styles/pages.css";
 
 function App() {
   return (

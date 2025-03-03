@@ -7,6 +7,8 @@
 }
 
 body {
+  margin: 0;
+  padding: 0;
   background-color: var(--cream);
   color: var(--gray-text);
   font-family: 'Open Sans', sans-serif;
@@ -29,9 +31,6 @@ header h1 {
   margin: 0;
   padding: 1rem;
   text-align: center;
-  font-size: 2.5rem;
-  font-weight: 300;
-  letter-spacing: 1px;
 }
 
 .main-nav ul {
@@ -41,46 +40,40 @@ header h1 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 1rem;
 }
 
 .main-nav li {
-  margin: 0;
+  margin: 0 1rem;
 }
 
 .main-nav a {
   color: white;
   text-decoration: none;
-  padding: 0.7rem 1.5rem;
-  border-radius: 25px;
+  padding: 0.5rem 1rem;
   transition: all 0.3s ease;
-  font-weight: 500;
 }
 
 .main-nav a:hover {
   background-color: var(--light-sage);
   color: var(--dark-sage);
-  transform: translateY(-2px);
+  border-radius: 25px;
 }
 
 .content {
   flex: 1;
   padding: 2rem;
   max-width: 1200px;
-  margin: 0 auto;
-  width: 100%;
+  margin: 2rem auto;
   background-color: white;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
   border-radius: 8px;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
 }
 
 footer {
   background-color: var(--dark-sage);
   color: white;
   text-align: center;
-  padding: 1.5rem;
+  padding: 1rem;
   margin-top: auto;
 }
 
