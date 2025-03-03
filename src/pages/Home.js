@@ -5,10 +5,14 @@ function Home() {
     <div className="home">
       <section className="hero">
         <div className="profile-container">
-        <img 
-            src="/assets/profile.jpg" 
+          <img 
+            src={process.env.PUBLIC_URL + '/assets/profile.jpg'} 
             alt="Arshia Garg" 
             className="profile-image"
+            onError={(e) => {
+              console.error('Image failed to load:', e);
+              alert('Image failed to load. Check console for details.');
+            }}
           />
           <div className="intro-text">
             <h2>Welcome to My Portfolio</h2>
