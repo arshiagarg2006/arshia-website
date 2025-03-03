@@ -3,13 +3,26 @@ import React from 'react';
 function Home() {
   return (
     <div className="home">
-      <h2>Welcome to My Portfolio</h2>
-      <section className="intro">
-        <h3>About Me</h3>
-        <p>
-          Hello! I'm [Your Name], a [Your Profession] with expertise in 
-          [Your Key Skills]. I'm passionate about [Your Interests].
-        </p>
+      <section className="hero">
+        <div className="profile-container">
+          <img 
+            src="/assets/profile-image.jpg" 
+            alt="Arshia Garg" 
+            className="profile-image"
+          />
+          <div className="intro-text">
+            <h2>Welcome to My Portfolio</h2>
+            <h3>About Me</h3>
+            <p>
+            Hello! I'm Arshia, a Computer Science and Data Science student with 
+            expertise in Python, Java, and JavaScript. I'm passionate about 
+            using data and AI to improve lives. I also love anything with 
+            adrenaline and excitement, like mountain biking, snowboarding, and 
+            surfing. My goal in life is to visit every national park. I’m also 
+            a thriller and sci-fi movie enthusiast and would love any recs. 
+            </p>
+          </div>
+        </div>
       </section>
       
       <section className="highlights">
