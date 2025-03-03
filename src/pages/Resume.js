@@ -12,7 +12,7 @@ function Resume() {
           height="1200px"
           style={{
             maxWidth: '100%',
-            width: '1600px',
+            width: '1200px',
             margin: '0 auto',
             display: 'block'
           }}
