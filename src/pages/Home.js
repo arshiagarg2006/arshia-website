@@ -17,19 +17,13 @@ function Home() {
             adrenaline and excitement, like mountain biking, snowboarding, and 
             surfing. My goal in life is to visit every national park. I'm also 
             a thriller and sci-fi movie enthusiast and would love any recs. 
+            Connect with me on <a href="https://www.linkedin.com/in/arshia--garg/">LinkedIn</a>.
             </p>
           </div>
         </div>
       </section>
       
-      <section className="highlights">
-        <h3>Career Highlights</h3>
-        <ul>
-          <li>Key achievement 1</li>
-          <li>Key achievement 2</li>
-          <li>Key achievement 3</li>
-        </ul>
-      </section>
+      
     </div>
   );
 }
