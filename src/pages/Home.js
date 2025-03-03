@@ -1,5 +1,4 @@
 import React from 'react';
-import profileImage from '../images/profile.jpg';  // Import at the top
 
 function Home() {
   return (
