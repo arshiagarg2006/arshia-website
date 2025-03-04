@@ -22,6 +22,13 @@ function Home() {
             Connect with me on <a href="https://www.linkedin.com/in/arshia--garg/">LinkedIn</a>.
             </p>
           </div>
+          <div className="profile-image-container">
+            <img 
+              src="/assets/profile.png"
+              alt="Arshia Garg"
+              className="profile-image"
+            />
+          </div>
         </div>
       </section>
       
