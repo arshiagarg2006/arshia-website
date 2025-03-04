@@ -1,33 +1,18 @@
 import React from 'react';
 
 function ElevatorPitch() {
-  const videoUrl = `${window.location.origin}/assets/pitch.mp4`;
-  console.log('Attempting to load video from:', videoUrl);
-
   return (
     <div className="elevator-pitch">
       <h2>Elevator Pitch</h2>
       <div className="video-container">
-        <video 
-          controls
-          autoPlay={false}
-          width="100%"
-          height="auto"
+        <iframe
           className="pitch-video"
-          playsInline
-          preload="auto"
-          onError={(e) => {
-            console.error('Video failed to load:', e);
-            console.error('Video element:', e.target);
-          }}
-        >
-          <source 
-            src={videoUrl}
-            type="video/mp4"
-            onError={(e) => console.error('Source error:', e)}
-          />
-          Your browser does not support the video tag.
-        </video>
+          src="https://www.youtube.com/embed/STGBlGItMks"
+          title="Elevator Pitch"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
       </div>
       <div className="pitch-description">
         <h3>About My Pitch</h3>
