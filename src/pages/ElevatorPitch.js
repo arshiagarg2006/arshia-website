@@ -15,8 +15,8 @@ function ElevatorPitch() {
           preload="auto"
         >
           <source 
-            src="/assets/pitch.mov" 
-            type="video/quicktime"
+            src="/assets/pitch.mp4" 
+            type="video/mp4"
           />
           Your browser does not support the video tag.
         </video>
