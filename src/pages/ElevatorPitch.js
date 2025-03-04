@@ -1,6 +1,9 @@
 import React from 'react';
 
 function ElevatorPitch() {
+  const videoUrl = `${window.location.origin}/assets/pitch.mp4`;
+  console.log('Attempting to load video from:', videoUrl);
+
   return (
     <div className="elevator-pitch">
       <h2>Elevator Pitch</h2>
@@ -13,10 +16,15 @@ function ElevatorPitch() {
           className="pitch-video"
           playsInline
           preload="auto"
+          onError={(e) => {
+            console.error('Video failed to load:', e);
+            console.error('Video element:', e.target);
+          }}
         >
           <source 
-            src="/assets/pitch.mp4" 
+            src={videoUrl}
             type="video/mp4"
+            onError={(e) => console.error('Source error:', e)}
           />
           Your browser does not support the video tag.
         </video>
