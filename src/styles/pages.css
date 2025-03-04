@@ -68,12 +68,47 @@ section {
 }
 
 /* Elevator Pitch Page */
-.elevator-pitch .video-placeholder {
-  background-color: var(--light-sage);
-  padding: 2rem;
+.elevator-pitch {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.video-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 2rem auto;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pitch-video {
+  display: block;
+  width: 100%;
+  height: auto;
   border-radius: 8px;
+}
+
+.pitch-description {
   text-align: center;
-  margin-bottom: 2rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  background: var(--light-sage);
+  border-radius: 8px;
+}
+
+.pitch-description h3 {
+  color: var(--dark-sage);
+  margin-bottom: 1rem;
+}
+
+.pitch-description p {
+  color: var(--gray-text);
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 /* Sample Work Page */
@@ -178,6 +213,14 @@ section {
 
   .cover-letter {
     padding: 1.5rem;
+  }
+
+  .video-container {
+    margin: 1rem auto;
+  }
+  
+  .pitch-description {
+    margin-top: 1rem;
   }
 }
 
